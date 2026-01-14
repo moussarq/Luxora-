@@ -1,0 +1,278 @@
+here<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxora Service | خدمات فاخرة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- خلفية متحركة -->
+    <div class="background-animation"></div>
+    
+    <!-- زر القائمة الجانبية -->
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-plus"></i>
+    </button>
+    
+    <!-- القائمة الجانبية -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3><i class="fas fa-crown"></i> Luxora</h3>
+            <button class="close-sidebar" id="closeSidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#" class="sidebar-link" data-page="home"><i class="fas fa-home"></i> الرئيسية</a></li>
+                <li><a href="#" class="sidebar-link" data-page="services"><i class="fas fa-concierge-bell"></i> خدماتنا</a></li>
+                <li><a href="#" class="sidebar-link" data-page="about"><i class="fas fa-users"></i> من نحن</a></li>
+                <li><a href="#" class="sidebar-link" data-page="support"><i class="fas fa-headset"></i> الدعم</a></li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <p>جميع الحقوق محفوظة &copy; Luxora 2023</p>
+        </div>
+    </aside>
+    
+    <!-- المحتوى الرئيسي -->
+    <main class="content" id="content">
+        <!-- الصفحة الرئيسية -->
+        <section class="page active" id="home-page">
+            <div class="hero">
+                <h1 class="glowing-text">Luxora Service</h1>
+                <p class="subtitle">نقدم خدمات حصرية وفاخرة تلبي جميع احتياجاتك الرقمية بجودة ودقة عالية. نحن نضمن لك تجربة استثنائية مع فريق محترف يتمتع بخبرة واسعة في مختلف المجالات التقنية.</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-bolt"></i>
+                        <p>أداء عالي</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>جودة فائقة</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-rocket"></i>
+                        <p>تسليم سريع</p>
+                    </div>
+                </div>
+                
+                <button class="scroll-down-btn" id="scrollDownBtn">
+                    <i class="fas fa-chevron-down"></i> اكتشف المزيد
+                </button>
+            </div>
+            
+            <!-- زر الديسكورد في الأسفل -->
+            <div class="bottom-section" id="bottomSection">
+                <h2>انضم إلى مجتمعنا على الديسكورد</h2>
+                <p>احصل على آخر التحديثات والعروض الحصرية من خلال الانضمام إلى سيرفرنا على الديسكورد</p>
+                <a href="https://discord.gg/Wby8bhKBMJ" target="_blank" class="discord-btn">
+                    <i class="fab fa-discord"></i> انضم إلى الديسكورد
+                </a>
+            </div>
+        </section>
+        
+        <!-- صفحة خدماتنا -->
+        <section class="page" id="services-page">
+            <div class="page-header">
+                <h2><i class="fas fa-concierge-bell"></i> خدماتنا</h2>
+                <p>نقدم مجموعة واسعة من الخدمات التقنية عالية الجودة</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>خدمة النسخ</h3>
+                    <p>نقدم خدمات نسخ محتوى عالي الجودة مع الحفاظ على الجودة الأصلية وتنسيق النصوص. نستخدم أدوات متطورة لضمان دقة وسرعة في التنفيذ.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>برمجة مواقع</h3>
+                    <p>تصميم وتطوير مواقع ويب احترافية بتقنيات حديثة، متجاوبة مع جميع الأجهزة، وسريعة التحميل، ومصممة لتحسين محركات البحث SEO.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>صنع البوتات</h3>
+                    <p>تطوير بوتات ذكية لمنصات مختلفة مثل الديسكورد، تيليجرام وغيرها، مع إمكانيات متقدمة تلبي احتياجات مجتمعك.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>بيع المشاريع</h3>
+                    <p>نوفر مشاريع جاهزة عالية الجودة في مختلف المجالات التقنية، مع دعم فني وضمان لتشغيل المشروع بشكل صحيح.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>أداء عالي</h3>
+                    <p>تحسين أداء المواقع والتطبيقات لتحقيق سرعة فائقة في التحميل وتجربة مستخدم سلسة بدون تأخيرات.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>تسليم سريع</h3>
+                    <p>نضمن لك تسليم المشاريع في الوقت المتفق عليه دون تأخير، مع مراجعات دورية لتقدم العمل.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- صفحة من نحن -->
+        <section class="page" id="about-page">
+            <div class="page-header">
+                <h2><i class="fas fa-users"></i> من نحن</h2>
+                <p>فريق Luxora - الخبرة والاحترافية منذ سنوات</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <i class="fas fa-crown"></i>
+                </div>
+                
+                <div class="about-text">
+                    <h3>نحن فريق Luxora</h3>
+                    <p>بدأنا رحلتنا قبل عدة سنوات بمجموعة صغيرة من المطورين الموهوبين، ومنذ ذلك الحين نمينا لتصبح Luxora واحدة من أبرز مقدمي الخدمات التقنية في المنطقة.</p>
+                    
+                    <div class="achievements">
+                        <div class="achievement">
+                            <span class="number">5+</span>
+                            <p>سنوات خبرة</p>
+                        </div>
+                        <div class="achievement">
+                            <span class="number">500+</span>
+                            <p>مشروع مكتمل</p>
+                        </div>
+                        <div class="achievement">
+                            <span class="number">1000+</span>
+                            <p>عميل راضٍ</p>
+                        </div>
+                    </div>
+                    
+                    <p>اشتهرنا على منصة الديسكورد والعديد من المنصات التقنية الأخرى بجودة خدماتنا وسرعة استجابتنا ودعمنا الفني المتميز. نعمل مع عملاء من جميع أنحاء العالم ونفتخر ببناء علاقات طويلة الأمد معهم.</p>
+                    
+                    <p>نؤمن بأن الجودة والاحترافية هما أساس النجاح، لذلك نلتزم بأعلى معايير الجودة في كل مشروع ننفذه، ونسعى دائماً لابتكار حلول تقنية تواكب أحدث التطورات في المجال.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- صفحة الدعم -->
+        <section class="page" id="support-page">
+            <div class="page-header">
+                <h2><i class="fas fa-headset"></i> مركز الدعم</h2>
+                <p>نحن هنا لمساعدتك. تحدث مع فريق الدعم الخاص بنا</p>
+            </div>
+            
+            <div class="support-container">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h3><i class="fas fa-comments"></i> محادثة الدعم</h3>
+                        <div class="chat-status">
+                            <span class="status-indicator"></span>
+                            <span>مساعدك الشخصي</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- الرسائل ستظهر هنا -->
+                        <div class="message bot-message">
+                            <div class="message-content">
+                                <p>مرحباً! أنا مساعد Luxora. كيف يمكنني مساعدتك اليوم؟</p>
+                            </div>
+                            <div class="message-time">الآن</div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-area">
+                        <div class="privacy-notice">
+                            <i class="fas fa-lock"></i>
+                            <span>محادثة خاصة بينك وبين فريق الدعم فقط</span>
+                        </div>
+                        
+                        <form id="messageForm">
+                            <div class="input-group">
+                                <input type="text" id="messageInput" placeholder="اكتب رسالتك هنا..." required>
+                                <button type="submit" class="send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <div class="email-notice">
+                            <p><i class="fas fa-envelope"></i> سيتم إرسال رسالتك إلى: <strong>moussabn437@gmail.com</strong></p>
+                            <p>وسيتم الرد عليك في أقرب وقت ممكن</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="support-info">
+                    <h3><i class="fas fa-info-circle"></i> معلومات الدعم</h3>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-shield-alt"></i> خصوصية تامة</h4>
+                        <p>محادثتك خاصة بينك وبين فريق الدعم فقط. لا يمكن للأعضاء الآخرين رؤية محادثتك.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-clock"></i> وقت الاستجابة</h4>
+                        <p>متوسط وقت الاستجابة: أقل من 24 ساعة في الأيام العملية.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-envelope"></i> البريد الإلكتروني</h4>
+                        <p>للتواصل المباشر: <strong>moussabn437@gmail.com</strong></p>
+                    </div>
+                    
+                    <div class="auto-response-notice">
+                        <h4><i class="fas fa-robot"></i> الرد التلقائي</h4>
+                        <p>عند إرسال رسالتك، ستتلقى رسالة تأكيد:</p>
+                        <p class="response-text">"برجاء انتظار الدعم سيتم تلقي محادثتك والرد باقرب وقت وشكرا"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- نافذة تأكيد الرد التلقائي -->
+    <div class="modal-overlay" id="autoResponseModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-check-circle"></i> تم إرسال رسالتك</h3>
+                <button class="close-modal" id="closeModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="success-icon">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <p>برجاء انتظار الدعم سيتم تلقي محادثتك والرد باقرب وقت وشكرا</p>
+                <p>تم إرسال رسالتك إلى: <strong>moussabn437@gmail.com</strong></p>
+            </div>
+            <div class="modal-footer">
+                <button class="confirm-btn" id="confirmBtn">حسناً</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
